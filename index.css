@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.A{
+    background-color: rgba(48, 29, 4, 0.671);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+   
+}
+.A:hover .tip
+{
+    background-color: rgba(220, 20, 60, 0.801);
+    display: none;
+}
+
+.bar{
+    background-color: blueviolet;
+    width: 80px;
+  display: flex;
+  justify-content: center;
+  
+  font-size: 30px;
+ 
+    /* margin-left: 10px; */
+}
+
+.bar div{
+    margin-top: -40px;
+}
+
+#tip{
+    font-size: larger;
+    border: 2px solid cadetblue;
+    width: 50px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
